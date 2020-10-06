@@ -4,9 +4,10 @@
 %   may be removed in a future release
 ! alt-rt.jar
 java/math
+java/text
 java/util
+sun/misc
 # charsets.jar
-META-INF/services/java.nio.charset.spi.CharsetProvider
 sun/nio
 sun/awt
 sun/io
@@ -32,7 +33,6 @@ META-INF/services/javax.sound.midi.spi.MidiDeviceProvider
 sun/net
 META-INF/services/javax.sound.sampled.spi.AudioFileWriter
 com/sun/imageio/
-com/sun/servicetag/
 META-INF/services/sun.java2d.pipe.RenderingEngine
 META-INF/services/java.sql.Driver
 sun/org
@@ -67,12 +67,13 @@ com/sun/management/
 sun/
 com/sun/jmx/
 com/sun/demo/
-com/sun/servicetag/
 com/sun/imageio/
 com/sun/net/
 com/sun/rmi/
 org/w3c/
+jdk/internal/
 com/sun/swing/
+oracle/jrockit/
 com/sun/activation/
 com/sun/script/
 com/sun/nio/

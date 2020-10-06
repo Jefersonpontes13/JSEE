@@ -216,15 +216,16 @@ site-policy@w3.org.
 is included with JRE 7, JDK 7, and OpenJDK 7.
 
 You are receiving a copy of the Elliptic Curve Cryptography library in source
-form with the JDK 7 source distribution and object code in the JRE 7 & JDK 7
-runtime.
+form with the JDK 7 and OpenJDK7 source distributions, and as object code in
+the JRE 7 & JDK 7 runtimes.
 
-The terms of the Oracle license do NOT apply to the Elliptic Curve
-Cryptography library program; it is licensed under the following license,
-separately from the Oracle programs you receive. If you do not wish to install
-this program, you may delete the library named libsunec.so (on Solaris and
-Linux systems) or sunec.dll (on Windows systems) from the JRE bin directory
-reserved for native libraries.
+In the case of the JRE 7 & JDK 7 runtimes, the terms of the Oracle license do
+NOT apply to the Elliptic Curve Cryptography library; it is licensed under the
+following license, separately from Oracle's JDK & JRE.  If you do not wish to
+install the Elliptic Curve Cryptography library, you may delete the library
+named libsunec.so (on Solaris and Linux systems) or sunec.dll (on Windows
+systems) from the JRE bin directory reserved for native libraries.
+
 
 --- begin of LICENSE ---
 
@@ -1000,7 +1001,7 @@ included with JDK 7 and OpenJDK 7 source distributions.
 
 -------------------------------------------------------------------------------
 
-%% This notice is provided with respect to libpng 1.2.18, which is 
+%% This notice is provided with respect to libpng 1.5.4, which is 
 included with JRE 7, JDK 7, and OpenJDK 7.
 
 --- begin of LICENSE ---
@@ -1014,8 +1015,10 @@ COPYRIGHT NOTICE, DISCLAIMER, and LICENSE:
 If you modify libpng you may insert additional notices immediately following
 this sentence.
 
-libpng versions 1.2.6, August 15, 2004, through 1.2.18, May 15, 2007, are
-Copyright (c) 2004, 2006-2007 Glenn Randers-Pehrson, and are
+This code is released under the libpng license.
+
+libpng versions 1.2.6, August 15, 2004, through 1.5.4, July 7, 2011, are
+Copyright (c) 2004, 2006-2011 Glenn Randers-Pehrson, and are
 distributed according to the same disclaimer and license as libpng-1.2.5
 with the following individual added to the list of Contributing Authors
 
@@ -1112,7 +1115,7 @@ certification mark of the Open Source Initiative.
 
 Glenn Randers-Pehrson
 glennrp at users.sourceforge.net
-May 15, 2007
+July 7, 2011
 
 --- end of LICENSE ---
 
@@ -1904,6 +1907,35 @@ SOFTWARE.
 Derivative works are acceptable, even for commercial purposes, provided 
 that the minimal documentation requirements stated in the source code are 
 satisfied. 
+
+--- end of LICENSE ---
+
+-------------------------------------------------------------------------------
+
+%% This notice is provided with respect to Sparkle v.1.5,
+which is included with JRE 7 on Mac OS X.
+
+--- begin of LICENSE ---
+
+Copyright (c) 2012 Sparkle.org and Andy Matuschak
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 --- end of LICENSE ---
 
@@ -3166,12 +3198,12 @@ with JRE 7, JDK 7, and OpenJDK 7
 %% This notice is provided with respect to the following which is 
 included with JRE 7, JDK 7, and OpenJDK 7, except where noted:
 
-  Apache Derby 10.8.1.2        [included with JDK 7 only]
+  Apache Derby 10.8.3.0        [included with JDK 7 only]
   Apache Jakarta BCEL 5.2 
   Apache Jakarta Regexp 1.4 
   Apache Santuario XMLSec-Java 1.4.2
   Apache Xalan-Java 2.7.1 
-  Apache Xerces2 Java 2.10.0 
+  Apache Xerces2 Java 2.11.0 
   Apache XML Resolver 1.1 
 
 
